@@ -51,14 +51,14 @@ public class payload {
 		
 		
 	}
-	public static String AddBook() {
+	public static String AddBook(String aisle, String isbn) {
 		
 		
 		String payload = "{\r\n"
 				+ " \r\n"
 				+ "\"name\":\"Learn Appium Automation with Java\",\r\n"
-				+ "\"isbn\":\"bcde\",\r\n"
-				+ "\"aisle\":\"22712\",\r\n"
+				+ "\"isbn\":\""+isbn+"\",\r\n"
+				+ "\"aisle\":\""+aisle+"\",\r\n"
 				+ "\"author\":\"John foe\"\r\n"
 				+ "}\r\n"
 				+ "";
