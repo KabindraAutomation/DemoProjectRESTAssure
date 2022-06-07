@@ -1,0 +1,1 @@
+Attaching any kind of file using REST Assured for JIRA application.
